@@ -13,3 +13,6 @@ node /^myweb/ {
 node /^mydb/ {
   include role::db_server
 }
+node 'mynecraft' {
+  include role::mine_server
+}
