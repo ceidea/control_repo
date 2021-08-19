@@ -10,6 +10,6 @@ class profile::ssh_server {
     ensure => present,
     user   => 'root',
     type   => 'ssh-rsa',
-    key    => "${ssh[rsa[key]]"
+    key    => "${ssh[rsa[key]]}"
   }
 }
