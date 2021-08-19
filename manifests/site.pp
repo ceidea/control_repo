@@ -4,7 +4,7 @@ node 'uxtdapl7.uth.tmc.edu' {
   include role::master_server
   file {'/root/README':
     ensure => file,
-    content => "This ${osname} is ${fqdn}\n",
+    content => "This ${os=>name} is ${fqdn}\n",
   }
 }
 node /^myweb/ {
