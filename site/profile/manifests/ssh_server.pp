@@ -6,7 +6,7 @@ class profile::ssh_server {
     ensure => 'running',
     enable => 'true',
   }
-  ssh_authorized_key { 'root':
+  ssh_authorized_key { 'root@uxtdapl7.uth.tmc.edu':
     ensure => present,
     user   => 'root',
     type   => 'ssh-rsa',
