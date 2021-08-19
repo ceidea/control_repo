@@ -1,3 +1,3 @@
-class roll::mine_server {
+class role::mine_server {
   include profile::base
 }
